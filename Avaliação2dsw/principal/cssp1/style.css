@@ -1,0 +1,234 @@
+.container{
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 60px 800px 500px 500px 500px 500px 500px 500px 500px 60px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: black;
+    grid-column: 1 / 5 ;
+    grid-row: 1 / 2;
+    
+}
+
+nav a{
+    text-decoration: none;
+    transition: 0.3s;
+    color: white;
+    padding-top: 20px;
+}
+nav a:hover{
+    color: rgb(204, 170, 60);
+}
+
+header{
+    grid-column: 1 / 5;
+    grid-row: 2 / 3;
+    text-align: center;
+    font-size: 30px;
+    background-image: url(../imagemp1/fundo7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    
+}
+
+
+.filme1{
+    background-color: rgb(7, 13, 20);
+    grid-column: 1 / 5;
+    grid-row: 3 / 4;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.filme1:hover{
+    opacity: 1;
+    background-image: url(../imagensfilmes/barquinho.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.filme2{
+    background-color: rgb(7, 13, 20);
+    background-image: url(../imagensfilmes/carro.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column: 1 / 5;
+    grid-row: 4/ 5;
+    opacity: 0;
+    transition: opacity 1s;
+    
+}
+.filmes{
+    font-size: 80px;
+}
+.filme2:hover{
+    opacity: 1;
+    background-image: url(../imagensfilmes/carro.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+
+.filme3{
+    background-color: rgb(7, 13, 20);
+    background-image: url(../imagensfilmes/patrono.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column: 1 / 5;
+    grid-row: 5 / 6;
+
+    opacity: 0;
+    transition: opacity 1s;
+}
+.filme3:hover{
+    opacity: 1;
+    background-image: url(../imagensfilmes/patrono.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.filme4{
+    background-color: rgb(7, 13, 20);
+    background-image: url(../imagensfilmes/calice.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column: 1 / 5;
+    grid-row: 6/ 7;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.filme4:hover{
+    opacity: 1;
+    background-image: url(../imagensfilmes/calice.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.filme5{
+    background-color: rgb(7, 13, 20);
+    grid-column: 1 / 5;
+    grid-row: 7 / 8;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.filme5:hover{
+    opacity: 1;
+    background-image: url(../imagensfilmes/ordem\ hermione.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.filme6{
+    background-color: rgb(7, 13, 20);
+    grid-column: 1 / 5;
+    grid-row: 8 / 9;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.filme6:hover{
+    opacity: 1;
+    background-image: url(../imagensfilmes/enigma\ dumbledore.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.filme7{
+    background-color: rgb(7, 13, 20);
+    grid-column: 1 / 5;
+    grid-row: 9 / 10;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.filme7:hover{
+    opacity: 1;
+    background-image: url(../imagensfilmes/reliquias.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer{
+    background-color: black;
+    grid-column: 1 / 5;
+    grid-row: 10 / 11;
+    text-align: center;
+    padding-top: 20px;
+   
+}
+.feet{
+    font-size: 15px;
+    padding: 0;
+}
+footer a{
+    text-decoration: none;
+    transition: 0.3s;
+    color: white;
+    padding-top: 100px;
+}
+footer a:hover{
+    color: rgb(204, 170, 60);
+}
+.item{
+    display: flex;
+    flex-direction: row;
+    
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+body{
+    background-color: black;
+    color: white;
+}
+
+
+
+body{
+    color: white;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Harry_potter';
+    src: url(../fonte/HARRYP__.TTF);
+}
+
+.harry{
+    font-family: 'Harry_potter';
+}
+
+h1{
+    text-align: center;
+}
+
+
+p{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 30px;
+    
+}
+

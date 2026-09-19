@@ -1,0 +1,135 @@
+.container{
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 600px 500px 500px 500px 500px;
+
+}
+
+
+header{
+    grid-column: 1 / 5;
+    grid-row: 1 / 2;
+    text-align: center;
+    font-size: 30px;
+    background-image: url(../imagenscasas/fundocasas.jpg);
+    background-size: cover;
+
+}
+
+
+.grifi{
+    grid-column: 1 / 4;
+    grid-row: 2/ 3;
+    background-color: rgb(145, 56, 56);
+}
+
+.grifimg{
+    grid-column: 4 / 5;
+    grid-row: 2/3;
+    background-color: rgb(145, 56, 56);
+}
+
+.sonse{
+    grid-column: 1 / 4;
+    grid-row: 3 / 4;
+    background-color: rgb(44, 110, 31);
+
+}
+
+
+
+.sonseimg{
+    grid-column: 4 / 5;
+    grid-row: 3/4;
+    background-color:  rgb(44, 110, 31);
+}
+
+.corvi{
+    grid-column: 1 / 4;
+    grid-row: 4 / 5;
+    background-color: rgb(38, 77, 122);
+
+}
+
+.corvimg{
+    grid-column: 4 / 5;
+    grid-row: 4/5;
+    background-color: rgb(38, 77, 122);
+}
+
+.lufa{
+    grid-column: 1 / 4;
+    grid-row: 5 / 6;
+    background-color: rgb(212, 173, 43);
+
+}
+
+.lufaimg{
+    grid-column: 4 / 5;
+    grid-row: 5/6;
+    background-color: rgb(212, 173, 43);
+}
+
+
+
+img{
+    height: 400px;
+    width: 300px;
+    margin-top: 50px;
+    box-shadow: 0 10px 50px 20px rgba(0, 0, 0, 0.541);
+    border-radius: 10px;
+}
+body{
+    color: white;
+    margin: 0;
+    background-color: black;
+}
+
+
+
+@font-face {
+    font-family: 'Harry_potter';
+    src: url(../HARRYP__.TTF);
+}
+
+.harry{
+    font-family: 'Harry_potter';
+    font-size: 100px;
+    transition: 0.3s;
+    user-select: none;
+}
+.harry:hover{
+    color: rgb(255, 205, 69);
+}
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+}
+
+
+.head{
+    font-size: 50px;
+}
+
+.titulo{
+    margin-left: 700px;
+    padding-top: 50px;
+}
+
+
+p{
+    text-align: center;
+    font-size: 25px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+a{
+    color: white;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    
+}
